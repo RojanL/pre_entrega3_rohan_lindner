@@ -1,0 +1,15 @@
+.imagenes_album{
+    display: flex;
+    justify-content: space-around;
+    padding: 15%;
+    .album{
+        transition: transform .2s;
+        .album_img {
+            @include size(250px, 250px);
+            border-radius: 20px;
+        }  
+    }
+    .album:hover{
+        transform: scale(1.5);
+    }
+}
